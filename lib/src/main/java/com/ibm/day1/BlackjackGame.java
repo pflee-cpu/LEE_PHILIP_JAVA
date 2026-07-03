@@ -7,12 +7,12 @@ public class BlackjackGame {
     
     public static void main(String[] args) {
         System.out.println("=== BLACKJACK ===");
-        System.out.println(blackjack(19, 21));
-        System.out.println(blackjack(22, 18));
-        System.out.println(blackjack(22, 30));
-        System.out.println(blackjack(20, 20));
-        System.out.println(blackjack(5, 17));
-        System.out.println(blackjack(21, 21));
+        System.out.println(blackjack(19, 21)); // 21
+        System.out.println(blackjack(22, 18)); // 18
+        System.out.println(blackjack(22, 30)); // 0
+        System.out.println(blackjack(20, 20)); // 20
+        System.out.println(blackjack(5, 17)); // 17
+        System.out.println(blackjack(21, 21)); // 21
         
         System.out.println("\n=== SWITCH (Traditional) ===");
         switchTraditional();
@@ -76,7 +76,7 @@ public class BlackjackGame {
                 break;
             default:
                 System.out.println("Invalid day number.");
-                break;
+                
         }
     }
     
