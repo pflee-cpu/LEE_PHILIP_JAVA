@@ -1,0 +1,13 @@
+Log Summary Report
+------------------
+Total Entries: 3
+INFO: 1
+WARN: 0
+ERROR: 2
+
+Error Messages:
+- Database failed
+- API timeout
+
+Earliest Timestamp: 2024-05-10T09:00
+Latest Timestamp: 2024-05-10T09:02
