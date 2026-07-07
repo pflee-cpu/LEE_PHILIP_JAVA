@@ -1,11 +1,12 @@
 Log Summary Report
 ------------------
-Total Entries: 0
-INFO: 0
+Total Entries: 2
+INFO: 1
 WARN: 0
-ERROR: 0
+ERROR: 1
 
 Error Messages:
+- Database failed
 
-Earliest Timestamp: null
-Latest Timestamp: null
+Earliest Timestamp: 2024-05-10T09:00
+Latest Timestamp: 2024-05-10T09:01
